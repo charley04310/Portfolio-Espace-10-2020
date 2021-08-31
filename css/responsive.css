@@ -1,0 +1,223 @@
+
+ 
+  
+  
+  @media (min-width: 768px) and (max-width: 1024px){
+    .flex-md-equal > * {
+      flex: 1;
+    }
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+    .nav_menu {
+        width: auto;
+    }
+
+    .nav-item-menu {
+        margin-right: 2rem;
+    }
+
+    .nav_reseaux{
+      position: absolute;
+      right: 0;
+      }
+    .nav-container{
+
+        display: flex;
+        justify-content: flex-start;
+    }
+
+  .titre_services {
+
+  height: 3rem !important;
+  
+  }
+  
+
+    .carousel {
+        
+        margin-right: 0; 
+        margin-left: 0; 
+    }
+
+    .Activité h1{
+    font-size: 1.5rem;
+  
+
+    }
+.carousel .min-vh-100{
+  min-height:60vh!important;
+}
+
+.Activité{
+ 
+left: 23px;
+  
+}
+.presentation p {
+display:none;
+}
+
+    .min-vh-100 {
+      min-height: 50vh!important;
+  }
+
+.first_bloc{
+  align-content: center;
+  flex-direction: column;
+  padding-bottom: 0!important;
+}
+
+.last_bloc{
+  align-content: center;
+  flex-direction: column;
+  padding-top: 0!important;
+
+}
+
+.col p {
+  font-size: 14px !important;
+
+}
+.col-card {
+  width: 45% !important;;
+  /* height: 36%; */
+}
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 845px){
+  .nav_reseaux {
+   display:none;
+}
+
+}
+
+
+
+@media(min-width: 320px) and (max-width: 445px){
+  .nav_menu{
+
+    display:none;
+  }
+
+  .titre_services {
+
+    height: 2rem !important;
+
+
+}
+
+.carousel .min-vh-100 {
+  min-height: 40vh!important;
+}
+
+.presentation{
+  padding-top: 6rem !important;
+}
+
+.presentation p{
+ display: none;
+}
+
+
+.bloc_presentation{
+ flex-direction: column;
+}
+
+
+.bloc_presentation .min-vh-100 {
+  min-height: 50vh!important;
+
+}
+
+.vectoriel{
+
+
+    width: 100% !important;
+}
+
+.biographie {
+  width: 100% !important;
+ 
+}
+
+.Activité {
+
+  left: 5px !important;
+}
+.Activité h1 {
+
+  font-size: 13px;
+}
+
+.Activité span{
+  border-bottom: 1px solid #6f18aa;
+
+ }
+ 
+ .plateforme h1{
+  font-size: 13px;
+}
+
+.first_bloc{
+  align-content: center;
+  flex-direction: column;
+  padding-bottom: 0!important;
+}
+
+.last_bloc{
+  align-content: center;
+  flex-direction: column;
+  padding-top: 0!important;
+
+}
+
+.container-services {
+
+  position: relative;
+}
+
+.container-services .titre_services {
+
+  margin-top: 2rem !important;
+}
+
+.service p{
+  
+    font-size: 13px !important;
+    font-family: 'Days One';
+
+}
+header{
+  position: inherit;
+}
+
+
+.footer{
+  flex-direction: column;
+  /* width: 100%; */
+  align-items: center;
+  border-left: 0px solid white;
+}
+
+.bloc-footer{
+  border-bottom: 1px solid white;
+border-right: 0;
+padding-top: 15px;
+}
+
+.logo-back svg{
+  width: 25px;
+}
+ }
+
+@media all and (min-width: 768px) {
+#projects .project-item {flex-direction: row;}
+#projects .project-item:nth-child(even){flex-direction: row-reverse;}
+#projects .project-item {height: 400px; margin: 0; width: 100%; border-radius: 0}
+
+#projects .all-projects .project-info {height: 100%;}
+#projects .all-projects .project-img {height: 100%;}  }

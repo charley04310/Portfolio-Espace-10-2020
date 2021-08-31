@@ -1,0 +1,137 @@
+
+
+.biographie{
+    width: 50%;
+    }
+    
+    .row{
+        --bs-gutter-x: 0rem;
+    }
+
+    .espace_background{
+        position: absolute;
+    }
+    .presentation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        text-align: center;
+        min-width: 100%;
+        z-index: 2;
+      
+    }
+
+.presentation p strong{
+    color: #2f205a;
+}
+    
+     .planete{
+        z-index: 2;
+        position: absolute;
+     }
+    
+    .biographie h5{
+        padding-top: 6rem;
+        position: absolute;
+        color: whitesmoke;
+    }
+
+
+    .presentation p{
+        color: black;
+        width: 40%;
+        background: #2f205a;
+        opacity: 36%;
+        border: 2px solid black;
+        padding: 1rem;
+        color: whitesmoke;
+        -webkit-transition: all 2s ease;
+      -moz-transition: all 2s ease;
+      -ms-transition: all 2s ease;
+      transition: all 2s ease;
+      border-radius: 15px;
+    }
+    
+
+
+    .presentation p:hover{
+        color: black;
+        width: 70%;
+        background: #ffffff;
+        transform: scale(1.2);
+        opacity: 100%;
+        border: 2px solid rgb(255, 255, 255);
+        padding: 1rem;
+        border-radius: 25px;
+     
+    }
+    
+    .presentation button {
+        margin-top: 2rem;
+        background-color:#434766;
+    }
+    
+    .presentation a{
+    color:white;
+    }
+    
+    
+    
+    
+    
+    .nom{
+        border-bottom: 1px solid white;
+    margin-right:30%;
+    margin-left:30%;
+    margin-top:10px;
+    }
+    
+    .nom_prenom{
+    padding-top: 3rem;
+    background-color: white;
+    }
+    
+    .vectoriel{
+        
+        width: 50%;
+        background-color:#235d81;
+
+    }
+    
+    
+    .container-presentation{
+    
+        max-width: 100%;
+        padding-right: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .competences{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-between;
+        height: 100%;
+        background-color: #235d81;
+      
+    }
+    
+    .competences h5{
+        font-size:14px;
+        padding-bottom: 3rem;
+    }
+    
+    .competence{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    .espace{
+        max-width: 50%;
+    }
